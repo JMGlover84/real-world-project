@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../drive-download-20260630T234115Z-3-001"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "real-world-project"
+	}
+}
