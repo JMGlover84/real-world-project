@@ -149,8 +149,12 @@ h1 {
         padding-right: 0;
     }
 }
-
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
 
 .header__img {
     width: 100%;
@@ -209,9 +213,7 @@ h1 {
     transition: all 300ms ease;
 }
 
-
-
-.button {
+button {
     cursor: pointer;
     padding: 0;
     box-sizing: border-box;
