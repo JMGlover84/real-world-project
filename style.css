@@ -4,6 +4,13 @@
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
 }
+
+#quality.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 img {
     width: 100%;
 }
