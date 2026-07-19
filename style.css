@@ -5,10 +5,29 @@
   font-family: "Inter", sans-serif;
 }
 
-#quality.row {
+#quality .row {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.quality_-description,
+.quality__img--wrapper {
+    width: 50%;
+}
+
+.quality__img {
+    width: 100%;
+    display: block;
+}
+
+.quality__img--wrapper {
+    width: 50%;
+}
+
+.quality__img {
+    width: 100%;
+    display: block;
 }
 
 img {
