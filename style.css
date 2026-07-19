@@ -27,6 +27,7 @@ values .section__title {
 }
 
 .quality__img--wrapper {
+    display: flex;
     border-radius: 4px;
     border: 1px solid rgb(229, 231, 235);
     position: relative;
