@@ -104,13 +104,12 @@ img {
   padding-left: 64px;
 }
 
-.steps__img--wrapper
+.steps__img--wrapper,
 .steps__description,
 .values__description,
 .values__img {
     width: 50%;   
 }
-
 
 .steps__description {
     margin-left: 24px;
@@ -218,6 +217,7 @@ img {
 .values__list {
   display: flex;
   gap: 32px;
+  margin-top: 32px;
 }
 
 #values .btn {
