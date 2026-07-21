@@ -47,13 +47,7 @@ values .section__title {
 
 img {
     width: 100%;
-    z-index: 2;
-    margin: 0;
-    padding: 100px;
-    padding-right: 64px;
-    padding-bottom: 64px;
-    box-sizing: border-box;
-    font-family: "Inter", sans-serif;    
+   display: block;   
 }
 
 .nav__row {
@@ -91,10 +85,11 @@ img {
   align-items: flex-start;
 }
 
-#steps .row {
+#steps .row,
+#values .row {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;  
+    align-items: center;
+    gap: 64px; 
 }
 
 .step {
@@ -109,24 +104,17 @@ img {
   padding-left: 64px;
 }
 
+.steps__img--wrapper
 .steps__description,
-.steps__img--wrapper {
+.values__description,
+.values__img {
     width: 50%;   
 }
 
-.steps__img--wrapper {
-  display: flex;
-  position: relative;
-}
 
 .steps__description {
-    padding: 32px 0;
-    padding-left: 64px;
-    width: 50%;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "Inter", sans-serif;
-    color: #243e63;
+    margin-left: 24px;
+    padding-left: 0;
 }
 
 .steps__img {
@@ -195,11 +183,20 @@ img {
   line-height: 1.25;
 }
 
+.value {
+  width: 50%;
+}
+
 .value__para {
   margin-top: 16px;
   line-height: 1.625;
   color: #718096;
   display: flex;
+}
+
+.value__title {
+  display: flex;
+  align-items: center;
 }
 
 .value__name {
@@ -219,11 +216,8 @@ img {
 }
 
 .values__list {
-  margin-left: 0;
-  margin-right: 0;
   display: flex;
-  max-width: none;
-  flex-direction: row;
+  gap: 32px;
 }
 
 #values .btn {
