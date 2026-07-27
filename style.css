@@ -287,6 +287,8 @@ img {
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
+  text-align: center;
+  width: 100%
 }
 
 #features .section__title {
@@ -508,5 +510,13 @@ button {
 
 #pricing .section__para {
   max-width: 576px;
+  text-align: center;
+}
+
+.pricing__description {
+  text-align: center;
+}
+
+p .section__para {
   text-align: center;
 }
