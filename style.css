@@ -111,18 +111,19 @@ img {
     width: 50%;   
 }
 
-.steps__description {
-    margin-left: 24px;
-    padding-left: 0;
+.steps__img--wrapper {
+  display: flex;
+  align-items: center;
+  position: relative;
 }
 
 .steps__img {
-    z-index: 2;
-    display: flex;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Inter", sans-serif;
+    width: 100%;
+}
+
+.steps__description {
+    margin-left: 24px;
+    padding-left: 0;
 }
 
 .step__title {
@@ -205,13 +206,28 @@ img {
   color: #243e63;
 }
 
+.value__img--wrapper {
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 36px;
+  height: 36px;
+  flex-shrink: 0;
+}
+
 .value__img {
-  width: 20px;
-  height: 20px;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Inter", sans-serif;
+  width: 50%;
+}
+
+.fa-solid
+
+.value:nth-child(1) .value__img--wrapper {
+  background-color: #9ae6b4;
+}
+
+.value:nth-child(2) .value__img--wrapper {
+  background-color: #feb2b2;
 }
 
 .values__list {
@@ -488,4 +504,9 @@ button {
     width: 100%;
     padding-right: 0;
   }
+}
+
+#pricing .section__para {
+  max-width: 576px;
+  text-align: center;
 }
