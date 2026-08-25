@@ -723,3 +723,33 @@ p .section__para {
 .plan.plan:nth-child(2) .plan__feature {
   color: #f7fafc;
 }
+
+h2.section__title {
+  margin-bottom: 24px;
+  line-height: 1.25;
+}
+span.purple {
+  color: #6415ff;
+}
+
+.testimonial_rating {
+  color: rgba(246, 173, 85);
+  margin-right: 2px;
+  margin-top: 4px;
+}
+
+h3.testimonial_title {
+  color: #4a5568;
+  line-height: 1.625;
+  margin-tip: 1rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.testimonial_para {
+  margin-top: 1rem;
+  font-weight: 500;
+  line-height: 1.65;
+  font-size: 16px;
+  color: rgb(74 85 104);
+}
