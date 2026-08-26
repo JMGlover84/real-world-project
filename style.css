@@ -790,3 +790,12 @@ h3.testimonial__title {
 .testimonial__role {
   text-align: center;
 }
+
+.testimonial__profile {
+  display: flex;
+  align-items: center;
+}
+
+.testimonial__details {
+  margin-left: 24px;
+}
