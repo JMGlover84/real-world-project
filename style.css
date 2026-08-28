@@ -263,8 +263,6 @@ img {
   line-height: 2;
 }
 
-
-
 .section__para {
   font-size: 18px;
   display: flex;
@@ -381,6 +379,7 @@ img {
 h1 {
   font-size: 36px;
   color: #1a202c;
+  line-height: 1.25;
 }
 
 h2 {
@@ -421,10 +420,15 @@ div {
 .header__img {
   width: 100%;
 }
-.header__description {
-  width: 50%;
-  padding-right: 40px;
+
+.header__img--wrapper {
+  width: 60%;
 }
+
+.header__description {
+  width: 40%;
+}
+
 
 .header__customers--title {
   width: 50%;
@@ -432,7 +436,7 @@ div {
 }
 
 .header__description--para {
-  margin: 32px 0;
+  font-size: 16px;
 }
 
 .login {
@@ -798,4 +802,26 @@ h3.testimonial__title {
 
 .testimonial__details {
   margin-left: 24px;
+}
+
+.testimonial__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 32px;
+}
+
+.testimonial__buttons {
+  display: flex;
+  align-items: center;
+}
+
+.testimonial__button svg {
+  width: 16px;
+  height: 16px;
+}
+
+.testimonial__buttons {
+  display: flex;
+  align-items: center;
 }
