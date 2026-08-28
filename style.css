@@ -736,6 +736,7 @@ span.purple {
 
 .testimonial__rating {
   color: rgb(246, 173, 85);
+  margin-top: 40px;
 }
 
 h3.testimonial__title {
@@ -790,9 +791,9 @@ h3.testimonial__title {
   line-height: 1.5;
 }
 
-#testimonials .testimonial__name,
+.testimonial__name,
 .testimonial__role {
-  text-align: center;
+  text-align: left;
 }
 
 .testimonial__profile {
@@ -811,9 +812,27 @@ h3.testimonial__title {
   margin-top: 32px;
 }
 
+.testimonial__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  border: none;
+  border-radius: 50%;
+  background-color: #edf2f7;
+}
+
 .testimonial__buttons {
   display: flex;
   align-items: center;
+  gap: 12px;
+}
+
+.divider {
+  width: 1px;
+  height: 24px;
+  background-color: #e2e8f0;
 }
 
 .testimonial__button svg {
