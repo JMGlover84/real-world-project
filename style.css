@@ -742,7 +742,7 @@ span.purple {
 h3.testimonial__title {
   color: #4a5568;
   line-height: 1.625;
-  margin-tip: 1rem;
+  margin-top: 1rem;
   font-size: 1.25rem;
   font-weight: 700;
 }
@@ -843,4 +843,95 @@ h3.testimonial__title {
 .testimonial__buttons {
   display: flex;
   align-items: center;
+}
+
+#testimonials .section__tag {
+  text-align: left;
+}
+
+.container {
+
+}
+
+.start__container {
+  width: 100%;
+  background-color: rgb(100, 21, 255);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#start.row {
+  position: relative;
+  overflow: hidden;
+}
+
+.start__container {
+  padding: 80px 0;
+  width: 100%;
+  background-color: rgb(100, 21, 255);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.start__row {
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 1024px;
+  padding: 0 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.start__title {
+  text-align: center;
+  width: 100%;
+  max-width: 512px;
+  color: #f7fafc;
+  font-weight: 700;
+  line-height: 1.5;
+  z-index: 2;
+}
+
+.start__buttons {
+  flex-direction: column;
+  width: auto;
+  margin-top: 24px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.start_button:nth-child(1) {
+  background: #f56565;
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    margin-right: 32px;
+    transition: all 300ms ease;
+}
+
+.start_button:nth-child(2) {
+  border: 1px solid rgb(160, 174, 192);
+  transition: all 300ms ease;
+}
+
+@media (max-width: 640px) {
+  .start_button:nth-child(2) {
+    maargin-top: 16px;
+  }
+}
+
+@media (max-width: 640px) {
+  .start__button {
+    padding: 12px 24px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 640px) {
+  .btn {
+    line-height: 14px;
+  }
 }
