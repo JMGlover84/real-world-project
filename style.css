@@ -912,9 +912,9 @@ h3.testimonial__title {
 }
 
 .start__button:nth-child(1) {
-  margin-right: 0;
+  margin-right: 32px;
   background: #f56565;
-  trasnsition: all 300ms ease;
+  transition: all 300ms ease;
 }
 
 .start__button:nth-child(2) {
@@ -1051,4 +1051,23 @@ footer {
   background: #fff;
   transition: all 300ms ease;
   opacity: 0;
+}
+
+.footer__divider {
+  width: 100%;
+  height: 2px;
+  margin: 64px 0;
+  background:; rgb(116, 44, 255);
+}
+
+@media (max-width: 768px) {
+  .footer__bottom {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.footer__bottom {
+  display: flex;
+  justify-content: space-between;
 }
