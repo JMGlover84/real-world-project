@@ -849,10 +849,6 @@ h3.testimonial__title {
   text-align: left;
 }
 
-.container {
-
-}
-
 .start__container {
   width: 100%;
   background-color: rgb(100, 21, 255);
@@ -862,35 +858,19 @@ h3.testimonial__title {
   align-items: center;
 }
 
-#start.row {
+#start .row {
   position: relative;
   overflow: hidden;
 }
 
-.start__container {
-  padding: 80px 0;
-  width: 100%;
-  background-color: rgb(100, 21, 255);
-  border-radius: 8px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .start__row {
-  flex-direction: column;
+  width: 100%;
   margin: 0 auto;
   max-width: 1024px;
   padding: 0 32px;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-@media (max-width: 640px) {
-  .start__container {
-    padding: 80px 0;
-  }
 }
 
 .start__container {
@@ -907,27 +887,22 @@ h3.testimonial__title {
   .start__row {
     flex-direction: column;
   }
-}
 
-.start__row {
-  display: flex;
-  align-items: center;
-}
-
-@media (max-width: 1024px) {
-  .start__title {
-    font-size: 24px;
-    text-align: center;
-    width: 100%;
-    max-width: 512px;
+  .start__buttons {
+    margin-top: 24px;
   }
+}
+
+.start__title,
+.start__buttons {
+  width: 50%;
 }
 
 .start__title {
   color: #f7fafc;
+  font-size: 30px;
   font-weight: 700;
   line-height: 1.5;
-  z-index: 2;
 }
 
 .start__buttons {
