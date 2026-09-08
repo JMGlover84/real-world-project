@@ -1083,3 +1083,8 @@ footer {
   display: flex;
   justify-content: space-between;
 }
+
+.footer__row {
+  flex-direction: column;
+  align-items: stretch;
+}
