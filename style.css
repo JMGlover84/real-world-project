@@ -923,6 +923,19 @@ h3.testimonial__title {
   transition: all 300ms ease;
 }
 
+@media (max-width: 1024px) {
+  #start .container {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .container {
+    padding: 80px 0;
+  }
+}
+
 @media (max-width: 640px) {
   .start__button {
     padding: 12px 24px;
@@ -951,10 +964,10 @@ h3.testimonial__title {
   text-align: center;
   align-items: center;
 }
-
-footer {
-  padding: 80px 32px;
-}
+@media (max-width: 1024px) {
+  footer {
+    padding: 80px 32px;
+  }
 }
 
 .start__blob--1 {
@@ -977,6 +990,7 @@ footer {
   transform: translate(5rem, -16rem);
   color: rgb(80 17 204);
   opacity: 0.5;
+}
 }
 
 @media (max-width: 640px) {
