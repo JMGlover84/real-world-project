@@ -1077,10 +1077,12 @@ footer {
     flex-direction: column;
     align-items: center;
   }
+}
 
 .footer__bottom {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .footer__row {
@@ -1105,4 +1107,3 @@ footer {
   margin-left: 8px;
   letter-spacing: 0.05cm;
  }
-}
