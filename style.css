@@ -911,8 +911,16 @@ h3.testimonial__title {
   justify-content: flex-end;
 }
 
+.start__buttons {
+  align-items: center;
+}
+
+.start__button {
+  width: 160px;
+}
+
 .start__button:nth-child(1) {
-  margin-right: 32px;
+  margin-right: 16px;
   background: #f56565;
   transition: all 300ms ease;
 }
@@ -952,6 +960,8 @@ h3.testimonial__title {
 
 .start__button:nth-child(2) {
   margin-top: 16px;
+  border: 1px solid rgb(160, 174, 192);
+  transition: all 300ms ease;
   }
 
 .footer__columns {
@@ -1154,7 +1164,12 @@ footer {
   transition: all 300ms ease;
  }
 
- .footer__social--ling svg {
+ .footer__social--link svg {
   height: 16px;
   width: 16px;
+ }
+
+ .footer__socials {
+  display: flex;
+  align-items: center;
  }
