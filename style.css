@@ -1141,3 +1141,20 @@ footer {
   color: #cbd530;
   font-weight: 500;
  }
+
+ .footer__social--link {
+  margin-left: 16px;
+  padding: 8px;
+  background: #f7fafc;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  z-index: 2;
+  cursor: pointer;
+  transition: all 300ms ease;
+ }
+
+ .footer__social--ling svg {
+  height: 16px;
+  width: 16px;
+ }
