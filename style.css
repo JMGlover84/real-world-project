@@ -1048,7 +1048,7 @@ footer {
 .footer__columns {
   display: flex;
   justify-content: space-between;
-  flex-wrap: ;
+  flex-wrap: wrap;
 }
 
 .footer__column {
