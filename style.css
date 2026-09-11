@@ -150,6 +150,8 @@ img {
 
 .btn__menu {
   display: none;
+  background: none;
+  border: none;
 }
 
 .row__narrow {
@@ -548,6 +550,17 @@ p .section__para {
   align-items: stretch;
   gap: 2rem;
   width: 100%;
+  position: relative;
+}
+
+.plans__blob {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  transform: translateX(-50%) translateY(50%);
+  z-index: -10;
+  width: 200px;
+  height: 200px;
 }
 
 .plan__top {
@@ -973,6 +986,25 @@ h3.testimonial__title {
   text-align: center;
   align-items: center;
 }
+
+.header__email {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header__email--input {
+    padding: 16px 24px;
+  }
+
+  .header__email--btn {
+    position: static;
+    transform: none;
+    width: 100%;
+    height: auto;
+    margin-top: 16px;
+    padding: 16px 0;
+  }
+  
 @media (max-width: 1024px) {
   footer {
     padding: 80px 32px;
@@ -1100,6 +1132,12 @@ footer {
   .footer__bottom {
     flex-direction: column;
     align-items: center;
+  }
+
+  .nav__row {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
   }
 }
 
