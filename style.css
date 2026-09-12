@@ -315,7 +315,7 @@ img {
 }
 
 .container {
-  padding: 80px 0;
+  padding: 40px 0;
 }
 
 .features {
@@ -329,11 +329,17 @@ img {
 
 .feature__row {
   display: flex;
+  align-items: center;
+  text-align: center;
 }
 
 .feature__text {
   display: flex;
   flex-direction: column;
+}
+
+nav {
+  padding-top: 32px;
 }
 
 .nav__link {
@@ -451,6 +457,10 @@ div {
   max-width: 450px;
 }
 
+.header__customers--title {
+  margin-top: 48px;
+}
+
 .header__email--input {
   width: 100%;
   border-radius: 500px;
@@ -512,12 +522,33 @@ button {
   .nav__links {
     display: none;
   }
+
+  .feature {
+    width: 50%;
+  }
 }
 
 @media (max-width: 768px) {
   .row {
     flex-direction: column;
   }
+
+  .nav__row {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+.feature__row {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.feature__text {
+  margin-left: 0;
+}
+
   .header__description,
   .header__customers--title {
     width: 100%;
@@ -705,6 +736,24 @@ p .section__para {
   .plan__bottom {
     padding: 2rem 1rem;
   }
+
+  .header__email {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header__email--input {
+    padding: 16px 24px;
+  }
+
+  .header__email--btn {
+    position: static;
+    transform: none;
+    width: 100%;
+    height: auto;
+    margin-top: 16px;
+    padding: 16px 0;
+  }
 }
 
 .plan__button {
@@ -862,6 +911,14 @@ h3.testimonial__title {
   text-align: left;
 }
 
+.section__tag {
+  font-size: 16px;
+  color: #6415ff;
+  letter-spacing: 1.6px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
 #start .row {
   position: relative;
   overflow: hidden;
@@ -986,31 +1043,14 @@ h3.testimonial__title {
   text-align: center;
   align-items: center;
 }
+}
 
-.header__email {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .header__email--input {
-    padding: 16px 24px;
-  }
-
-  .header__email--btn {
-    position: static;
-    transform: none;
-    width: 100%;
-    height: auto;
-    margin-top: 16px;
-    padding: 16px 0;
-  }
-  
 @media (max-width: 1024px) {
   footer {
     padding: 80px 32px;
   }
 }
-}
+
 
 .start__blob--1 {
   position: absolute;
