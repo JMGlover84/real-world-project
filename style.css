@@ -5,6 +5,10 @@
   font-family: "Inter", sans-serif;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 #quality .section__title,
 values .section__title {
     line-height: 1.25;
@@ -385,7 +389,7 @@ nav {
 }
 
 h1 {
-  font-size: 36px;
+  font-size: 48px;
   color: #1a202c;
   line-height: 1.25;
 }
@@ -430,11 +434,13 @@ div {
 }
 
 .header__img--wrapper {
-  width: 60%;
+  width: 50%;
 }
 
 .header__description {
-  width: 40%;
+  width: 50%;
+  max-width: 600px;
+  padding-right: 40px;
 }
 
 
@@ -445,6 +451,7 @@ div {
 
 .header__description--para {
   font-size: 16px;
+  margin: 32px 0;
 }
 
 .login {
@@ -454,7 +461,10 @@ div {
 .header__email {
   position: relative;
   width: 100%;
-  max-width: 450px;
+  max-width: 448px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .header__customers--title {
@@ -526,6 +536,18 @@ button {
   .feature {
     width: 50%;
   }
+
+  .header__description--para {
+    margin: 20px 0;
+  }
+
+  .header__description {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100;
+  }
 }
 
 @media (max-width: 768px) {
@@ -582,6 +604,7 @@ p .section__para {
   gap: 2rem;
   width: 100%;
   position: relative;
+  margin: 0 12px;
 }
 
 .plans__blob {
